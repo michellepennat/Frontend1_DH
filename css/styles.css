@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  background: #e6e6e6;
+  padding-block: 20px;
+}
+
+.photo {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.title {
+  background-color: #c4c4c4;
+}
+
+.title > h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 84.69%;
+  color: #005677;
+  padding-block: 16px;
+  text-align: center;
+  letter-spacing: 10px;
+  margin-block-end: 133px;
+  margin-block-start: 0;
+}
+
+h4 {
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 84.69%;
+  letter-spacing: 5px;
+  color: #005677;
+  padding-block: 8px;
+  padding-inline-start: 12.5px;
+}
+
+.data > ul > li {
+  margin-block-end: 10px;
+}
+
+.data > ul > li > strong {
+  font-style: italic;
+}
+
+.list > ul {
+  padding-inline-start: 24px;
+}
+
+.list > ul > li {
+  display: flex;
+  flex-direction: row;
+  margin-block-end: 10px;
+}
+
+.list > ul > li > div > p {
+  margin: 0 0 5px 5px;
+}
+
+footer {
+  background: #005677;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+  margin-block-start: 121px;
+}
+
+footer > p {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 84.69%;
+}
+
+footer > img {
+  margin-inline-start: 26px;
+}
